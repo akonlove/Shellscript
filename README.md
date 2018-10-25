@@ -1,7 +1,4 @@
 # Shellscript
 ShellScript Files
-
-vai ter dir
-
-lkjkl
-klnll
+e agora
+vamos ver

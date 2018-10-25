@@ -1,7 +1,5 @@
 # Shellscript
 ShellScript Files
 
-vai ter dir
+nao due
 
-lkjkl
-klnll

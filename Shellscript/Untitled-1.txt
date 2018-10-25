@@ -1,0 +1,14 @@
+cc=gcc
+all=aula
+
+aula=aula.c
+
+${cc} ${aula} -o ${all}
+
+./aula
+echo
+cat aula.c
+echo
+echo "deseja editar S[1]/N[]"
+echo
+echo

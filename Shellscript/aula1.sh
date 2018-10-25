@@ -1,6 +1,9 @@
 #!/bin/bash
 echo "Bem Vindo"
 echo
+
+
+
 echo "Seu nome de Utilizador é:"
 whoami
 echo "Info de hora atual e tempo que o computador esta ligado:"

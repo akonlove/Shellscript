@@ -11,19 +11,13 @@ echo "git push"
 echo "git fetch"
 echo "..."
 read opcao
-case $opcao in 
-	l)
+
 /usr/bin/expect <<EOD
-spawn git pull origin rm
+spawn git ${opcao} origin rm
 expect "Enter passphrase for key '/home/tiago/.ssh/id_rsa': "
 send "$pass\r"
 expect eof
 EOD
-;;
-	s)
-		;;
-	c)
-		;;
-esac
+
 
 

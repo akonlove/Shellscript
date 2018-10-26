@@ -12,12 +12,8 @@ echo "** git fetch **"
 echo "***************"
 read opcao
 
-/usr/bin/expect <<EOD
-spawn git ${opcao} origin rm
-expect "Enter passphrase for key '/home/tiago/.ssh/id_rsa': "
-send "$pass\r"
-expect eof
-EOD
-
-
+ssh-add ~/.ssh/id_rsa_key
+Enter passphrase for /.ssh/id_rsa_key:
+Identity added: /.ssh/id_rsa_key
+(/.ssh/id_rsa_key)
 

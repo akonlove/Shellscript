@@ -1,4 +1,5 @@
 # Shellscript
 ShellScript Files
-e agora
-vamos ver
+agora. estamos. bem
+
+in Visual studio

@@ -1,15 +1,16 @@
 #!/bin/bash
+echo
 echo " ** GIT repository **"
 echo 
 cd
 cd /home/tiago/.ssh/Shellscript
-
+echo
 pass="akonlove1990"
-echo "****************"
-echo "** git pull  **"
-echo "** git push  **"
-echo "** git fetch **"
-echo "***************"
+echo "   ****************"
+echo "   ** git pull  **"
+echo "   ** git push  **"
+echo "   ** git fetch **"
+echo "   ***************"
 read opcao
 
 ssh-add ~/.ssh/id_rsa_key

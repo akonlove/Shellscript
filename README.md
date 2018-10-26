@@ -1,4 +1,3 @@
 # Shellscript
 ShellScript Files
-e agora
-vamos ver
+agora. estamos. bem

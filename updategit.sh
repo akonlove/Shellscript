@@ -12,8 +12,3 @@ echo "git fetch"
 echo "..."
 read opcao
 
-ssh-add ~/.ssh/id_rsa_key
-Enter passphrase for /.ssh/id_rsa_key:
-Identity added: /.ssh/id_rsa_key
-(/.ssh/id_rsa_key)
-
